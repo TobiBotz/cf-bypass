@@ -4,7 +4,7 @@ import iuam from './lib/ends/iuam';
 import { connect } from "./lib/browser/br";
 
 const app = express();
-const port = process.env.PORT || 8742;
+const port = process.env.PORT || 3001;
 const authToken = process.env.authToken || null;
 
 (global as any).browserLimit = Number(process.env.browserLimit) || 20;
